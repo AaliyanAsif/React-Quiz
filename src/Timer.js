@@ -13,11 +13,7 @@ export default function Timer({ dispatch, secondsRemaining }) {
 
   return (
     <div className="timer">
-      {/* {mins < 10 && "0"}:{seconds < 10 && "0"}
-       */}
-      {/* {mins < 10 && `0${mins}`} : {seconds < 10 && `0${seconds}`}
-      00 */}
-      {mins < 10 && "0"}
+      S{mins < 10 && "0"}
       {mins}: {seconds < 10 && "0"}
       {seconds}
     </div>
